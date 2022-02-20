@@ -39,11 +39,11 @@ yellow_Spaceship_image = pygame.image.load(os.path.join('Assets','spaceship_yell
 yellow_spaceship = pygame.transform.rotate(pygame.transform.scale(yellow_Spaceship_image, (SPACESHIP_WIDTH,SPACESHIP_HEIGHT)),90)
 red_Spaceship_image = pygame.image.load(os.path.join('Assets','spaceship_red.png'))
 red_spaceship = pygame.transform.rotate(pygame.transform.scale(red_Spaceship_image, (SPACESHIP_WIDTH,SPACESHIP_HEIGHT)),270)
-SPACE = pygame.transform.scale(pygame.image.load(os.path.join('Assets','space.png')), (WIDTH,HEIGHT))
+SPACE = pygame.transform.scale(pygame.image.load(os.path.join('Assets','space.jpg')), (WIDTH,HEIGHT))
 #Visual Function
 def draw_window(red,yellow,red_bullets,yellow_bullets, yellow_health, red_health):
     WIN.blit(SPACE, (0,0))
-    pygame.draw.rect(WIN, BLACK, BORDER)
+    pygame.draw.rect(WIN, (0,255,0), BORDER)
     yellow_health_text = HEALTH_FONT.render("HEALTH: " + str(yellow_health), 1, WHITE)
     red_health_text = HEALTH_FONT.render("HEALTH: " + str(red_health), 1, WHITE)
     WIN.blit(yellow_health_text, (10,10))
