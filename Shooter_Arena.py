@@ -40,7 +40,7 @@ yellow_spaceship = pygame.transform.rotate(pygame.transform.scale(yellow_Spacesh
 red_Spaceship_image = pygame.image.load(os.path.join('Assets','spaceship_red.png'))
 red_spaceship = pygame.transform.rotate(pygame.transform.scale(red_Spaceship_image, (SPACESHIP_WIDTH,SPACESHIP_HEIGHT)),270)
 SPACE = pygame.transform.scale(pygame.image.load(os.path.join('Assets','space.jpg')), (WIDTH,HEIGHT))
-#Visual Function
+#Visual w
 def draw_window(red,yellow,red_bullets,yellow_bullets, yellow_health, red_health):
     WIN.blit(SPACE, (0,0))
     pygame.draw.rect(WIN, (0,255,0), BORDER)
