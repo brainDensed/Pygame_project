@@ -1,4 +1,5 @@
 # Pygame_project
+TO LAUNCH THE GAME RUN THE ".exe" file.
 Making games using pygame(python).
 Currently learning making games on pygame and all thanks to Tech With Tim to make such amazing learning videos.
 ALL CREDITS GOES TO TECH WITH TIM AS I AM LEARNING FROM HIS VIDEOS, ALL THE ASSETS USED HERE ARE PROVIDED BY HIM. 
